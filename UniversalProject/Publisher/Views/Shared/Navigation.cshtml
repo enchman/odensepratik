@@ -1,0 +1,21 @@
+﻿<nav class="navbar navbar-left">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigator" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a asp-controller="Home" asp-action="Index" class="navbar-brand">Markforsøg</a>
+        </div>
+        <div id="navigator" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+            <ul class="nav navbar-nav">
+                <li><a asp-controller="Home" asp-action="Overview">Statistik</a></li>
+                <li><a asp-controller="Home" asp-action="Crop">Planter</a></li>
+                <li><a asp-controller="Home" asp-action="Field">Marker</a></li>
+                <li><a asp-controller="Home" asp-action="Treatment">Behandling</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
