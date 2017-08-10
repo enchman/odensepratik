@@ -6,6 +6,8 @@ namespace ServiceCore.Models
 {
     public class ServiceModel : IServiceModel
     {
+        public string ServiceName { get; set; }
+
         public string Name { get; set; }
 
         public string Url { get; set; }
